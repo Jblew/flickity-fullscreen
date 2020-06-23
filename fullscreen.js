@@ -52,7 +52,10 @@ proto._createFullscreen = function() {
 proto._changeFullscreenActive = function() {
   var childMethod = this.isActive ? 'appendChild' : 'removeChild';
   this.element[ childMethod ]( this.viewFullscreenButton.element );
-  this.element[ childMethod ]( this.exitFullscreenButton.element );
+  this.element[childMethod](this.exitFullscreenButton.element);
+  if (!this.isActive) {
+    document.documentElement.classList.remove('is-flickity-fullscreen');
+  }
   // activate or deactivate buttons
   var activeMethod = this.isActive ? 'activate' : 'deactivate';
   this.viewFullscreenButton[ activeMethod ]();
