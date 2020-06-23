@@ -14,18 +14,18 @@ Add `fullscreen.css` to your stylesheets and `fullscreen.js` to your scripts.
 ### CDN
 
 ``` html
-<link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
+<link rel="stylesheet" href="https://unpkg.com/pu-flickity-fullscreen@1/fullscreen.css">
 ```
 
 ``` html
-<script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
+<script src="https://unpkg.com/pu-flickity-fullscreen@1/fullscreen.js"></script>
 ```
 
 ### Package managers
 
-npm: `npm install flickity-fullscreen`
+npm: `npm install pu-flickity-fullscreen`
 
-Bower: `bower install flickity-fullscreen`
+Bower: `bower install pu-flickity-fullscreen`
 
 ## Usage
 

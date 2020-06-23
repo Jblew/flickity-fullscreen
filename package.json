@@ -1,6 +1,6 @@
 {
-  "name": "flickity-fullscreen",
-  "version": "1.1.1",
+  "name": "pu-flickity-fullscreen",
+  "version": "1.1.2",
   "description": "Enable fullscreen view of Flickity carousels",
   "main": "fullscreen.js",
   "style": "fullscreen.css",
@@ -16,13 +16,17 @@
     "fullscreen"
   ],
   "author": "David DeSandro",
+  "contributors": [
+    "Pete Harris <hello@peteharris.co.uk>",
+    "Jędrzej Lewandowski <jedrzej@lewandowski.doctor>"
+  ],
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/metafizzy/flickity-fullscreen.git"
+    "url": "git+https://github.com/Jblew/flickity-fullscreen.git"
   },
   "bugs": {
-    "url": "https://github.com/metafizzy/flickity-fullscreen/issues"
+    "url": "https://github.com/Jblew/flickity-fullscreen/issues"
   },
-  "homepage": "https://github.com/metafizzy/flickity-fullscreen#readme"
+  "homepage": "https://github.com/Jblew/flickity-fullscreen#readme"
 }

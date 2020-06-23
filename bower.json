@@ -1,5 +1,5 @@
 {
-  "name": "flickity-fullscreen",
+  "name": "pu-flickity-fullscreen",
   "description": "Enable fullscreen view of Flickity carousels",
   "main": [
     "fullscreen.js",
@@ -10,6 +10,10 @@
   },
   "authors": [
     "David DeSandro"
+  ],
+  "contributors": [
+    "Pete Harris <hello@peteharris.co.uk>",
+    "Jędrzej Lewandowski <jedrzej@lewandowski.doctor>"
   ],
   "license": "GPL-3.0",
   "keywords": [
